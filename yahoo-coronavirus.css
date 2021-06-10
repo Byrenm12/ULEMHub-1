@@ -1,0 +1,71 @@
+
+.container-fluid{
+    margin: 0;
+    background-color: #FFFFFF;
+    overflow: hidden;
+}
+.header1 {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    background-color: #232A31;
+    color: #fefbff;
+    height: 38px;
+    font-family: "YahooSans VF", YahooSans, "Helvetica Neue", Helvetica, Tahoma, Geneva, Arial, sans-serif;
+    font-size: 10px;
+    line-height: 39px;
+    font-weight: 800;
+    font-style: normal;
+}
+.header2{
+    display: flex;
+    justify-content: space-between;
+}
+.yahoo-image{
+    width:50px;
+    height: 30px;
+}
+.search{
+    height: 45px;
+    width: 560px;
+    border-radius: 4px;
+}
+.button1{
+    background-color: #188FFF;
+    border-radius: 4px;
+    border: #188FFF;
+    width: 82px;
+    height: 45px;
+}
+.button2{
+    border-radius: 50%;
+    font-family:"YahooSans VF", YahooSans, "Helvetica Neue", Helvetica, Tahoma, Geneva, Arial, sans-serif;
+    font-weight:600;
+    font-style: normal;
+    font-size: 12px;
+    background-color: #FFFFFF;
+    border-color:#6001d2;
+    line-height: 18px;
+}
+
+.header3{
+display: flex;
+justify-content: space-between;
+    font-family: YahooSans, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: normal;
+font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+}
+#update-section{
+    display: flex
+}
+#update-section div h3:nth-child(1){
+}
+#update-section div h1:nth-child(2){
+
+}
+#image2 {
+    height:1px;
+    width:1px;
+}
