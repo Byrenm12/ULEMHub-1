@@ -216,6 +216,8 @@
     height: 72px;
     border-radius: 5px;
 }
+
+/* The circle 360 logo */
 .content-box div:nth-child(3) img:nth-child(2){
     position: absolute;
     width: 30px;
@@ -223,6 +225,8 @@
     right: 250px;
     bottom: 290px;
 }
+
+/*the paragraph that goes with the 360 logo */
 .content-box div:nth-child(3) p:nth-child(3){
     position: absolute;
     right: 200px;
@@ -231,6 +235,7 @@
     font-size: 12px;
     font-weight: 900;
 }
+
 .content-box div:nth-child(3) p:nth-child(4){
     position: absolute;
     left: 60px;
