@@ -10,6 +10,8 @@
 .container {
     width: 100vw;
     height: 100vh;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
 }
 .header1 {
     display: flex;
@@ -135,54 +137,74 @@
 
 /* first content box */
 .content-box div:nth-child(1) img{
-    width: 540px;
-    height: 300px;
+    position: relative;
+    width: 880px;
+    height: 350px;
 }
 
 /* second content box */
 .content-box div:nth-child(2) {
-    background-color: green;
+    position: absolute;
+    right: 489px;
+    background-color: hsla(0, 3%, 25%,.9);
     width: 343px;
-    height: 300px;
+    height: 350px;
+    color: white;
+    padding: 30px;
 }
 
 .content-box div:nth-child(2) h3:nth-child(1){
-
+    position: absolute;
+    top: 70px;
 }
 
 .content-box div:nth-child(2) p:nth-child(2) {
-
+    position: absolute;
+    top: 120px;
+    font-size: 14px;
 }
 .content-box div:nth-child(2) p:nth-child(3) {
-
+    position: absolute;
+    top: 200px;
+    font-size: 16px;
 }
 
 /* third content box */
 .content-box div:nth-child(3) {
+    position: relative;
     width: 300px;
     height: 350px;
-    background-color: red;
-
+    background-color: #f8f8f8;
     margin-left: 40px;
+    padding: 10px;
 }
 
 /* make the 5 small buttons */
-.content-box div:nth-child(3) img:nth-child(6),
 .content-box div:nth-child(3) img:nth-child(7),
 .content-box div:nth-child(3) img:nth-child(8),
 .content-box div:nth-child(3) img:nth-child(9),
-.content-box div:nth-child(3) img:nth-child(10){
+.content-box div:nth-child(3) img:nth-child(10),
+.content-box div:nth-child(3) img:nth-child(11){
     width: 30px;
     height: 30px;
     border-radius: 50%;
+    position: relative;
+    top: 90px;
+
 }
 
+.content-box div:nth-child(3) img:nth-child(9) {
+    width: 40px;
+    height: 40px;
+}
+
+/* Read the 360 button */
 .content-box div:nth-child(2) input:nth-child(4) {
     width: 120px;
     height: 40px;
     position: absolute;
-    bottom: 225px;
-    left: 600px;
+    bottom: 50px;
+    right: 100px;
     color: white;
     background-color: blue;
 
@@ -192,11 +214,36 @@
 .content-box div:nth-child(3) img:nth-child(1){
     width: 300px;
     height: 72px;
-    border-radius: 90px;
+    border-radius: 5px;
 }
 .content-box div:nth-child(3) img:nth-child(2){
+    position: absolute;
     width: 30px;
     height: 30px;
+    right: 250px;
+    bottom: 290px;
+}
+.content-box div:nth-child(3) p:nth-child(3){
+    position: absolute;
+    right: 200px;
+    bottom: 310px;
+    color: white;
+    font-size: 12px;
+    font-weight: 900;
+}
+.content-box div:nth-child(3) p:nth-child(4){
+    position: absolute;
+    left: 60px;
+    bottom: 290px;
+    color: white;
+    font-size: 12px;
+}
+.content-box div:nth-child(3) p:nth-child(5){
+    position: absolute;
+    bottom: 230px;
+}
 
-
+.content-box div:nth-child(3) p:nth-child(6) {
+    position: absolute;
+    bottom: 150px;
 }
